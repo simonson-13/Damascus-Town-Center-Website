@@ -1,0 +1,202 @@
+/* default */
+body {
+  font-size: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto 0 auto;
+  border: 10px solid #8B4513;
+  background-color: white;
+  /* border-collapse: collapse; */
+}
+
+/* Intro */
+#intro {
+  text-align: center;
+  background-color: #8B4513;
+}
+
+#intro h1 {
+  /* display: inline; */
+  margin:0 0 0 0;
+  font-size: 5em;
+  border-top: 10px solid #8B4513;
+  border-bottom: 10px solid #8B4513;
+  padding: .3em;
+  background-color: yellow;
+  color: green;
+}
+
+#intro img {
+  margin: 0 .2em 0 .2em;
+}
+
+/* tool bar */
+#toolBar {
+  text-align: center;
+  margin: 0 0 0 0;
+  border-color: #8B4513;
+  background-color: #8B4513;
+
+}
+
+#toolBar a {
+  padding: 0 6em 0 6em;
+  /* border: 10px solid #8B4513; */
+  text-decoration: none;
+  color: green;
+  background: yellow;
+}
+
+#toolBar a:hover {
+  color: yellow;
+  background: green;
+}
+
+/* weather */
+#weather {
+  border-top: 10px solid #8B4513;
+  border-bottom: 10px solid #8B4513;
+  text-align: center;
+  font-size: 4em;
+  background: linear-gradient(#9DCDFC, #0C5BAA);
+  color: white;
+  font-family: didot, serif;
+  /* background-color: lightblue; */
+
+}
+
+/* body */
+/* HOME Body */
+#homeBody {
+  padding: 0;
+}
+#homeBody div{
+
+}
+
+#homeBody div.dmassTweets {
+  width: 20%;
+  float: left;
+  margin-top: 3em;
+  border: 10px solid lightgrey;
+}
+
+#homeBody div.mid {
+  display: block;
+  width: 50%;
+  float: left;
+  margin-left: 3%;
+  margin-top: 3em;
+  text-align: justify;
+  /* border: 10px solid #8B4513; */
+}
+
+#homeBody div.cdcTweets {
+  width: 20%;
+  float: right;
+  margin-top: 3em;
+  border: 10px solid lightgrey;
+}
+
+/* FOOD body */
+#foodBody {
+    overflow: hidden;
+}
+
+#foodBody h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+#foodBody div h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+#foodBody div.nonLocal {
+  /* border: 10px solid black; */
+  width: 50%;
+  float: left;
+}
+
+#foodBody div.local {
+  /* border: 10px solid black; */
+  width: 50%;
+  float: right;
+}
+
+#foodBody div ul {
+  list-style-type: none;
+}
+
+#foodBody div ul li {
+  width: 70%;
+  margin: 2em 2em 2em 3em;
+  border: 10px solid lightgrey;
+  /* padding: 2em 2em 2em 0; */
+  overflow: hidden;
+}
+
+#foodBody div ul li div {
+  /* display: inline; */
+
+}
+
+#foodBody div ul li div.foodImage img{
+  float:left;
+  width: 20%;
+  padding: 1em;
+}
+
+#foodBody div ul li div.foodDescription {
+  float: left;
+  width: 69%;
+  margin:0 0 2% 2%;
+}
+
+/* RECREATION BODY */
+#recBody h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+#recBody div.body {
+  text-align: justify;
+  margin: auto;
+  width: 80%;
+}
+
+#recBody div.body div.element {
+  overflow: hidden;
+  border: 10px solid lightgrey;
+  padding: 2em;
+  margin: 2em;
+}
+
+#recBody div.body div.element img {
+  float: left;
+  width: 35%;
+}
+
+#recBody div.body div.element div.recDescription {
+  float: right;
+  width: 60%;
+}
+
+#recBody div.body div.element div.recDescription a{
+  text-decoration: none;
+  color: black;
+}
+
+#recBody div.body div.element div.recDescription p{
+  text-align: justify;
+}
+
+/* --- OTHER --- */
+/* list item title */
+
+/* list item description */
+
+/* classes for the variables grabbed from weather*/
